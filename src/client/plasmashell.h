@@ -248,6 +248,7 @@ public:
         Notification, ///< The Surface represents a notification @since 5.24
         ToolTip ///< The Surface represents a tooltip @since 5.24
     };
+   Q_ENUM(Role)
     /**
      * Changes the requested Role to @p role.
      * @see role
@@ -273,6 +274,7 @@ public:
         WindowsCanCover,
         WindowsGoBelow
     };
+    Q_ENUM(PanelBehavior)
     /**
      * Sets the PanelBehavior for a PlasmaShellSurface with Role @c Role::Panel
      * @see setRole
